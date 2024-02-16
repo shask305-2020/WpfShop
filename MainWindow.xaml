@@ -73,6 +73,10 @@
                     Нет данных
                 </ComboBoxItem>
             </ComboBox>
+            <Button x:Name="newWindow"
+                    Content="Новое окно"
+                    Click="newWindow_Click"
+                    Margin="5"/>
         </StackPanel>
         
     </Grid>

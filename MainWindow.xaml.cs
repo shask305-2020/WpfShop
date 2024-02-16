@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfShop.window;
 
 namespace WpfShop
 {
@@ -42,6 +43,12 @@ namespace WpfShop
         private void AddProduct_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void newWindow_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window = new Window1();
+            window.Show();
         }
     }
 }
